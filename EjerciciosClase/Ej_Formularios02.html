@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej_Formularios02</title>
+</head>
+<body>
+    <form action="mailto:crsitian.s332880@cesurformacion.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend> Datos Personales </legend>
+            Nombre: <input name="Nombre" type="text" tabindex="1"><br><br>
+            Apellidos: <input name="Apellidos" type="text" tabindex="2">
+        </fieldset>
+        <p> Mensaje<br><br>
+            <textarea name="Mensaje" cols="50" rows="10"></textarea><br><br>
+            <label> Asunto del mensaje: </label>
+            <select name="Asunto">
+                <option value="Contato"> Contaco </option>
+                <option value="Queja"> Queja </option>
+                <option value="Devolución"> Devolución </option>
+            </select><br><br>
+            ¿Eres Sosio?
+            <input type="radio" name="Sosio" value="No" checked/>No
+            <input type="radio" name="Sosio" value="Si"/>Si<br><br>
+            <label> ¿Deseas suscribirte al boletín de noticias? </label><br><br>
+            <input type="checkbox" name="suscribirte" value="si" checked>Si, acepto recibir información<br><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            
+
+
+
+        </p>
+
+    </form>
+</body>
+</html>
