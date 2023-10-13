@@ -10,6 +10,7 @@
             padding: 0;
             display: flex;
             height: 100vh;
+            font-size: 20px;
         }
 
         .columna-izquierda {
@@ -30,7 +31,7 @@
 
         .fila-inferior {
             flex: 8;
-            background-color: #c0c0c0;
+            background-color:azure;
             padding: 20px;
         }
 
@@ -41,17 +42,31 @@
             align-items: center;
         }
         .letra {
-            font-size: 36px;
+            font-size: 50px;
             font-weight: bold;
         }
 
-        .b { color: red; font-size: 72px; }
+        .b { color: red; font-size: 80px; }
         .o { color: red; }
         .l { color: yellow; }
         .i { color: yellow; }
         .v { color: green; }
-        .i2{ color:green;}
+        .i2{ color: green; }
         .a { color: green; }
+
+        label {
+            display: flex;
+            align-items:center;
+            }
+        .asterisco-rojo {
+            color: red;
+            margin-left: 4px;
+            visibility: visible;
+        }
+
+        input:invalid + label .asterisco-rojo {
+            visibility: visible;
+        }
     </style>
     </style>
 </head>
@@ -62,6 +77,7 @@
     <div class="columna-derecha">
         <div class="fila-superior">
             <p style="text-align: center; font-family:Georgia, 'Times New Roman', Times, serif;">
+                <br>
                 <span class="letra b">B</span>
                 <span class="letra o">o</span>
                 <span class="letra l">l</span>
@@ -69,11 +85,39 @@
                 <span class="letra v">v</span>
                 <span class="letra i2">i</span>
                 <span class="letra a">a</span>
+                <img src="">
             </p>
         </div>
         <div class="fila-inferior">
-            <h2>Fila Inferior</h2>
-            <iframe src="https://www.otroejemplo.com"></iframe>
+            <h1 style="color:darkblue;">Formulario de Contacto</h1>
+            <form action="mailto:crsitian.s332880@cesurformacion.com" method="post" enctype="text/plain">
+                <p style="font-size: 16px;">Déjanos saber sus preguntas, sugerencias o preocupaciones llenando el siguiente formulario de contacto.</p>
+                <hr>
+                <label for="Nombre"><b>Nombre completo</b><span class="asterisco-rojo">*</span></label>
+                <input style="width: 325px;height: 23px; margin-right: 10px;" type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+                <input style="width: 325px;height: 23px;" type="text" id="Apellidos" name="Apellidos" placeholder="Apellidos" required><br><br>
+                
+                <label for="Email"><b>Email</b><span class="asterisco-rojo">*</span></label>
+                <input style="width: 674px;height: 23px;" type="text" id="Email" name="Email" required><br><br>
+                
+                <label for="Telefono"><b>Teléfono</b><span class="asterisco-rojo">*</span></label>
+                <input style="width: 674px;height: 23px;" type="text" id="Telefono" name="Telefono" placeholder="+## ### ### ###" required><br><br>
+
+                <label for="Asunto"><b>Asunto del Mensaje</b><span class="asterisco-rojo">*</span></label>
+                <select style="width: 683px;height: 30px;" name="Asunto">
+                    <option value="Contato"> Consulta </option>
+                    <option value="Queja"> Queja </option>
+                    <option value="Sujerencia"> Sujerencia </option>
+                    <option value="Otros"> Otros </option>
+                </select><br><br>
+                
+                <label for="Mensaje"><b>Mensaje</b><span class="asterisco-rojo">*</span></label>
+                <textarea name="Mensaje" cols="90" rows="5"></textarea><br><br>
+
+                <button style="margin-left: 270px; padding: 10px 40px; background-color: darkblue; color: white; border-radius: 5px;" type="submit">Enviar</button>
+                </p>
+        
+            </form>
         </div>
     </div>
 </body>
