@@ -8,32 +8,73 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
+            display: flex;
+            height: 100vh;
         }
+
         .columna-izquierda {
-            float: left;
-            flex: 20%;
-            position: absolute;
-            background-color: blue;
-            padding: 0%;
+            flex: 3;
+            background-color: #f2f2f2;
         }
-        .fila1 {
+
+        .columna-derecha {
+            flex: 7;
             display: flex;
-            flex: 20%;
-            background-color: red;
-            flex-direction: row;
+            flex-direction: column;
         }
-        .fila2 {
-            display: flex;
-            flex: 100%;
-            background-color: yellow;
-            flex-direction: row;
+
+        .fila-superior {
+            flex: 2;
+            background-color: black;
         }
+
+        .fila-inferior {
+            flex: 8;
+            background-color: #c0c0c0;
+            padding: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            align-items: center;
+        }
+        .letra {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .b { color: red; font-size: 72px; }
+        .o { color: red; }
+        .l { color: yellow; }
+        .i { color: yellow; }
+        .v { color: green; }
+        .i2{ color:green;}
+        .a { color: green; }
+    </style>
     </style>
 </head>
 <body>
-    <div class="columna-izquierda"><iframe src="DondeEstamos.html"></iframe></div>
-            <div class="fila1"> <p> Bolivia </p> </div>
-            <div class="fila2"> <p> Formulario </p> </div>
+    <div class="columna-izquierda">
+        <iframe src="DondeEstamos.html"></iframe>
+    </div>
+    <div class="columna-derecha">
+        <div class="fila-superior">
+            <p style="text-align: center; font-family:Georgia, 'Times New Roman', Times, serif;">
+                <span class="letra b">B</span>
+                <span class="letra o">o</span>
+                <span class="letra l">l</span>
+                <span class="letra i">i</span>
+                <span class="letra v">v</span>
+                <span class="letra i2">i</span>
+                <span class="letra a">a</span>
+            </p>
+        </div>
+        <div class="fila-inferior">
+            <h2>Fila Inferior</h2>
+            <iframe src="https://www.otroejemplo.com"></iframe>
+        </div>
+    </div>
 </body>
 </html>
