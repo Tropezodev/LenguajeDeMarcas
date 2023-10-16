@@ -1,0 +1,34 @@
+body {
+    font-size: 20px;
+}
+.enlace {
+    color: green;
+}
+.enlace:hover{
+    font-weight: bold;
+}
+.enlace:visited {
+    color: red;
+}
+.rojo1 {
+    color: red;
+    font-weight: bold;
+}
+.rojo2 {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.azul {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+.under_overline {
+    text-decoration:overline underline;
+}
+.letrasize_50 {
+    font-size:60px;
+    font-weight: bold;
+}
