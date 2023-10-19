@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.fila1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+}
+
+.columna {
+    flex: 2;
+}
+
+.fila2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.columna-derecha {
+    flex: 8;
+    font-size: 30px;
+    background-color: gray;
+}
