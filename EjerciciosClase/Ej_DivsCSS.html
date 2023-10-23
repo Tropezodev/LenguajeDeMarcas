@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ej_DivsCss</title>
     <link rel="stylesheet" type="text/css" href="Ej_DivsCSS.css">
 </head>
+
 <body>
-    <div class="fila">
-        <div class="columna">Div superior</div>
-    </div>
-    <div class="fila2">
-        <div class="columna">Div lateral</div>
-        <div class="columna-derecha"></div>
+    <div class="contenedor">
+        <div class="fila-superior">
+            <div>Div Superior</div>
+        </div>
+        <div class="fila-inferior">
+            <div class="columna1">Div Lateral</div>
+            <div class="columna2">
+                <form action="mailto:crsitian.s332880@cesurformacion.com" method="post" enctype="text/plain">
+                    <fieldset>
+                        <div class="formulario">
+                            <div class="formucol1">
+                                <Label>Ingrese Nombre:</Label><br>
+                                <Label>Ingrese Mail:</Label><br>
+                                <Label>Comentarios:</Label><br>
+                            </div>
+                            <div class="formucol2">
+                                <input name="Nombre" type="text"><br>
+                                <input name="Mail" type="text"><br>
+                                <textarea name="Comentarios" cols="50" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit">confirmar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

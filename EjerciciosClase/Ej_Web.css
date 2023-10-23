@@ -1,0 +1,30 @@
+.contenido {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado {
+    flex: 2;
+    background-image: url(https://raw.githubusercontent.com/Tropezodev/LenguajeDeMarcas/main/Media/PepoTrix.png);
+    background-size: contain;
+}
+
+.cuerpo-central {
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+}
+
+.barra-lateral {
+    flex: 1;
+}
+
+.contenido-central {
+    flex: 9;
+}
+
+.pie-de-pagina {
+    text-align: center;
+}

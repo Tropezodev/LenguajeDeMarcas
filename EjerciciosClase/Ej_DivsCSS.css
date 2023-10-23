@@ -1,31 +1,52 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+.contenedor {
     display: flex;
+    flex-direction: column;
     height: 100vh;
 }
 
-.fila1 {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    color: white;
+.fila-superior {
+    flex: 0.5;
+    justify-content: space-between;
     background-color: black;
-    font-size: 50px;
+    color: white;
 }
-
-.columna {
-    flex: 2;
-}
-
-.fila2 {
+.fila-inferior {
+    flex: 9.5;
     display: flex;
-    flex: 1;
+    justify-content: space-between;
+}
+
+.columna1 {
+    flex: 1.5;
+    background-color: gray;
+
+}
+.columna2 {
+    flex: 8.5;
+    background-color: azure;
+    padding:20px;
+}
+
+.formulario {
+    display: flex;
     flex-direction: row;
 }
-
-.columna-derecha {
-    flex: 8;
-    font-size: 30px;
-    background-color: gray;
+.formucol1 {
+    flex: 0.7;
+}
+.formucol2 {
+    flex: 9.3;
+}
+button {
+    color: red;
+    background-color: lightgray;
+    border: 0px;
+}
+button:hover {
+    font-weight: bold;
 }

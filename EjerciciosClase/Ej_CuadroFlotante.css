@@ -1,0 +1,19 @@
+.contenido {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.fila {
+    background-color: salmon;
+    margin: 1%;
+    margin-left: 0;
+    font-size: 24px;
+}
+
+.cuadroflotante {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    background-color: yellow;
+    font-size: 24px;
+}
