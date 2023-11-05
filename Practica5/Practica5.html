@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica5</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="Practica5.css">
+    <body>  
+        <h1>la tienda amiga. formulario de alta</h1>
+        <table width='100%'>
+                <tr>
+                    <td><form action="mailto:cristian.s332880@cesurformacion.com?subject=Formulario de Alta" method="post" enctype="text/plain">
+                        <fieldset><legend>datos personales</legend>
+                            <div class="tabla1">
+                                <table>
+                                    <tr>
+                                        <td>nif:</td>
+                                        <td colspan='5'><input name='txtnif' type='text' size='9' maxlength='9' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>nombre:</td>
+                                        <td colspan='5'><input name='txtnombre' type='text' size='50' maxlength='50' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>direcci&oacute;n</td>
+                                        <td colspan='5'><input name='txtdireccion' type='text' size='80' maxlength='100' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>fecha nac.</td>
+                                        <td><input name='txtfecha' type='text' size='15' maxlength='10' /></td>
+                                        <td>tel&eacute;fono</td>
+                                        <td colspan='2'><input name='txttelefono' type='text' size='9' maxlength='9' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>localidad:</td>
+                                        <td><input name='txtlocalidad' type='text' size='20' maxlength='20' /></td>
+                                        <td>provincia:</td>
+                                        <td><input name='txtprovincia' type='text' size='25' maxlength='25' /></td>
+                                        <td>cp:</td>
+                                        <td><input name='txtcp' type='text' size='8' maxlength='5' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>email:</td>
+                                        <td colspan='5'><input name='txtemail' type='text' size='50' maxlength='50' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>password:</td>
+                                        <td><input name='txtpassword' type='text' size='10' maxlength='10' /></td>
+                                        <td>confirmar:</td>
+                                        <td><input name='txtconfirmar' type='text' size='10' maxlength='10' /></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </fieldset>
+                        <fieldset><legend>datos musicales</legend>
+                            <div class="tabla2">
+                                <table>
+                                    <tr>
+                                        <td>&nbsp;&nbsp;idioma preferido:</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td colspan='2'>
+                                            <select name='lstidioma' size='3'>
+                                                <option value='0' selected='selected'>espa&ntilde;ol</option>
+                                                <option value='1'>ingl&eacute;s</option>
+                                                <option value='2'>indifirente</option>
+                                            </select>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;&nbsp;tipo de m&uacute;sica:</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>pop</td>
+                                        <td><input type='checkbox' value='pop' /></td>
+                                        <td>rock</td>
+                                        <td><input type='checkbox' value='rock' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>folk</td>
+                                        <td><input type='checkbox' value='folk' /></td>
+                                        <td>cl&aacute;sica</td>
+                                        <td><input type='checkbox' value='clasica' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>otras</td>
+                                        <td colspan='5'><input name='txtotras' type='text' size='20' maxlength='20' /></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </fieldset>
+                        <fieldset><legend>forma de pago</legend>
+                            <div class="tabla3">
+                                <table>
+                                    <tr>
+                                        <td></td>
+                                        <td>contrarembolso</td>
+                                        <td><input name='rbtnforma' type='radio' value='0' checked='checked' /></td>
+                                        <td>con tarjeta</td>
+                                        <td><input name='rbtnforma' type='radio' value='1' /></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>n&uacute;mero tarjeta</td>
+                                        <td colspan='3'><input name='txtnumero' type='text' size='20' maxlength='30' /></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </fieldset>
+                        <table width='100%'>
+                            <tr>
+                                <td><input type='submit' value='enviar' /><input type='reset' value='limpiar' /></td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
