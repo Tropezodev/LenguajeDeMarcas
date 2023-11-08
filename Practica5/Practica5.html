@@ -12,8 +12,7 @@
                 <tr>
                     <td><form action="mailto:cristian.s332880@cesurformacion.com?subject=Formulario de Alta" method="post" enctype="text/plain">
                         <fieldset><legend>datos personales</legend>
-                            <div class="tabla1">
-                                <table>
+                                <table class="tabla1">
                                     <tr>
                                         <td>nif:</td>
                                         <td colspan='5'><input name='txtnif' type='text' size='9' maxlength='9' /></td>
@@ -23,13 +22,13 @@
                                         <td colspan='5'><input name='txtnombre' type='text' size='50' maxlength='50' /></td>
                                     </tr>
                                     <tr>
-                                        <td>direcci&oacute;n</td>
+                                        <td>dirección</td>
                                         <td colspan='5'><input name='txtdireccion' type='text' size='80' maxlength='100' /></td>
                                     </tr>
                                     <tr>
                                         <td>fecha nac.</td>
                                         <td><input name='txtfecha' type='text' size='15' maxlength='10' /></td>
-                                        <td>tel&eacute;fono</td>
+                                        <td>teléfono</td>
                                         <td colspan='2'><input name='txttelefono' type='text' size='9' maxlength='9' /></td>
                                     </tr>
                                     <tr>
@@ -51,27 +50,25 @@
                                         <td><input name='txtconfirmar' type='text' size='10' maxlength='10' /></td>
                                     </tr>
                                 </table>
-                            </div>
                         </fieldset>
                         <fieldset><legend>datos musicales</legend>
-                            <div class="tabla2">
-                                <table>
+                                <table class="tabla2">
                                     <tr>
-                                        <td>&nbsp;&nbsp;idioma preferido:</td>
+                                        <td>idioma preferido:</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td colspan='2'>
                                             <select name='lstidioma' size='3'>
-                                                <option value='0' selected='selected'>espa&ntilde;ol</option>
-                                                <option value='1'>ingl&eacute;s</option>
+                                                <option value='0' selected='selected'>español</option>
+                                                <option value='1'>inglés</option>
                                                 <option value='2'>indifirente</option>
                                             </select>
                                         </td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td>&nbsp;&nbsp;tipo de m&uacute;sica:</td>
+                                        <td>tipo de música:</td>
                                     </tr>
                                     <tr>
                                         <td></td>
@@ -84,7 +81,7 @@
                                         <td></td>
                                         <td>folk</td>
                                         <td><input type='checkbox' value='folk' /></td>
-                                        <td>cl&aacute;sica</td>
+                                        <td>clásica</td>
                                         <td><input type='checkbox' value='clasica' /></td>
                                     </tr>
                                     <tr>
@@ -93,11 +90,9 @@
                                         <td colspan='5'><input name='txtotras' type='text' size='20' maxlength='20' /></td>
                                     </tr>
                                 </table>
-                            </div>
                         </fieldset>
                         <fieldset><legend>forma de pago</legend>
-                            <div class="tabla3">
-                                <table>
+                                <table class="tabla3">
                                     <tr>
                                         <td></td>
                                         <td>contrarembolso</td>
@@ -107,16 +102,18 @@
                                     </tr>
                                     <tr>
                                         <td></td>
-                                        <td>n&uacute;mero tarjeta</td>
+                                        <td>número tarjeta</td>
                                         <td colspan='3'><input name='txtnumero' type='text' size='20' maxlength='30' /></td>
                                         <td></td>
                                     </tr>
                                 </table>
-                            </div>
                         </fieldset>
-                        <table width='100%'>
+                        <table class="tabla4" width='100%'>
                             <tr>
-                                <td><input type='submit' value='enviar' /><input type='reset' value='limpiar' /></td>
+                                <td>
+                                    <input class="botones" type='submit' value='enviar' />
+                                    <input class="botones" type='reset' value='limpiar' />
+                                </td>
                             </tr>
                         </table>
                     </form>
