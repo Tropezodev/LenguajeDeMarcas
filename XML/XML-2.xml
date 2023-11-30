@@ -1,20 +1,26 @@
 <hechosHistoricos>
 	<hechoHistorico hecho="Ábaco" autor="">
-		<anyo>3500AC</anyo>
-		<mes></mes>
-		<dia></dia>
+		<fecha>
+			<anyo>3500AC</anyo>
+			<mes></mes>
+			<dia></dia>
+		</fecha>
 		<descripcion>Es el dispositivo más antiguo utilizado para realizar operaciones aritméticas.</descripcion>
 	</hechoHistorico>
 	<hechoHistorico hecho="Calculadora universal" autor="Leibnnitz">
-		<anyo>1646</anyo>
-		<mes>Marzo</mes>
-		<dia>8</dia>
+		<fecha>
+			<anyo>1646</anyo>
+			<mes>03</mes>
+			<dia>08</dia>
+		</fecha>	
 		<descripcion>Máquina que suma, resta, multiplica, divide y hace raíces cuadradas.</descripcion>
 	</hechoHistorico>
 	<hechoHistorico hecho="Máquina Analítica" autor="Charles Babbage y Ada Lovelace">
-		<anyo>1792</anyo>
-		<mes>Marzo</mes>
-		<dia>14</dia>
+		<fecha>
+			<anyo>1792</anyo>
+			<mes>03</mes>
+			<dia>14</dia>
+		</fecha>	
 		<descripcion>Máquina que resolvía funciones y obtenía tablas.</descripcion>
 	</hechoHistorico>
 </hechosHistoricos>
