@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE informacion>
+<!--
+Diseña un XML que contenga la información sobre tres libros y tres eventos.
+Cada libro y evento debe contener "ID", "nombre" y "descripción".
+...
+-->
+<informacion xmlns:libro="..." xmlns:evento="...">
+	<libro:informacion id="1">
+		<nombre>El libro de la Selva</nombre>
+		<descripcion>Libro de color verde</descripcion>
+	</libro:informacion>
+	<libro:informacion id="2">
+		<nombre>El libro de la Salve</nombre>
+		<descripcion>Libro de color rojo</descripcion>
+	</libro:informacion>
+	<evento:informacion id="1">
+		<nombre>EDiscurso del Rey</nombre>
+		<descripcion>Discurso de Navidad</descripcion>
+	</evento:informacion>
+	<evento:informacion id="2">
+		<nombre>Murcia Lan Party</nombre>
+		<descripcion>1024 Frikis en una sala</descripcion>
+	</evento:informacion>
+</informacion>

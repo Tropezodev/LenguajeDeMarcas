@@ -1,0 +1,432 @@
+﻿<bibliotecas>
+	<bliblioteca nombre="JC1">
+		<direccion>Calle babana cuarta</direccion>
+		<salas>
+			<sala nombre="Gramos">
+				<capacidad>20k</capacidad>
+				<estantes>
+					<estante id="1" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+					<estante id="2" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+				</estantes>
+			</sala>
+			<sala nombre="Gramos">
+				<capacidad>20k</capacidad>
+				<estantes>
+					<estante id="1" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+					<estante id="2" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+				</estantes>
+			</sala>
+		</salas>
+	</bliblioteca>
+	<bliblioteca nombre="El Pipos">
+		<direccion>Calle Menchu</direccion>
+		<salas>
+			<sala nombre="Gramos">
+				<capacidad>20k</capacidad>
+				<estantes>
+					<estante id="1" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+					<estante id="2" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+				</estantes>
+			</sala>
+			<sala nombre="Gramos">
+				<capacidad>20k</capacidad>
+				<estantes>
+					<estante id="1" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+					<estante id="2" tema="Literatura jovenzuela">
+						<libros>
+							<libro titulo="El Gran Lechosky">
+								<fecha>
+									<anyo>1600</anyo>
+									<mes>03</mes>
+									<dia>13</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Espinete">
+										<fecha_nac>
+											<anyo>1600</anyo>
+											<mes>03</mes>
+											<dia>13</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Pikachu">
+										<fecha_nac>
+											<anyo>1800</anyo>
+											<mes>05</mes>
+											<dia>27</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+							<libro titulo="La Biblia">
+								<fecha>
+									<anyo>0</anyo>
+									<mes>01</mes>
+									<dia>01</dia>
+								</fecha>
+								<autores>
+									<autor nombre="Jisus">
+										<fecha_nac>
+											<anyo>0</anyo>
+											<mes>01</mes>
+											<dia>01</dia>
+										</fecha_nac>
+									</autor>
+									<autor nombre="Dios">
+										<fecha_nac>
+											<anyo>0000</anyo>
+											<mes>00</mes>
+											<dia>00</dia>
+										</fecha_nac>
+									</autor>
+								</autores>
+							</libro>
+						</libros>
+					</estante>
+				</estantes>
+			</sala>
+		</salas>
+	</bliblioteca>
+</bibliotecas>

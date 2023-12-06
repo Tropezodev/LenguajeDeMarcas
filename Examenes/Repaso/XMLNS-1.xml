@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE asistentes>
+<!--
+Vamos a registrar los asistentes a la cena de navidad de CESUR por su nombre,
+pero nos encontramos con el nombre de los profesores por un lado y de los alumnos por otro,
+en dos XML distintos.
+Crea un documento XML que resuelva las colisiones de nombres y unifique toda la información,
+eliminando las colisiones de nombres.
+-->
+
+<asistentes xmlns:profesor="localhost/profesores.com" xmlns:alumno="localhost/alumnos.com">
+	<alumno:nombre>Juan García Martín</alumno:nombre>
+	<alumno:nombre>María Gómez Sanjuán</alumno:nombre>
+	<alumno:nombre>José López Murillo</alumno:nombre>
+	<profesor:nombre>Ana López Pérez</profesor:nombre>
+	<profesor:nombre>Luis Juan Pérez</profesor:nombre>
+</asistentes>
