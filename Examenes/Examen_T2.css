@@ -3,6 +3,7 @@ body {
     background-color: #56595F;
     color: white;
     font-size: 18px;
+    text-align: justify;
 }
 h1, h2 {
     border-bottom: solid 3px white;
@@ -14,4 +15,48 @@ h1, h2 {
     padding-bottom: 10px;
     text-align: center;
     color: #56595F;
+}
+li {
+    margin-left: 20px;
+}
+.intro{
+    text-align:left;
+}
+.listaMenu{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+.Subtitulos{
+    list-style-type: none;
+    margin-top: 50px;
+    border-top: 20px solid white;
+    padding-top: 20px;
+    margin-left:0px;
+}
+a {
+    text-decoration: none;
+    color: grey;
+  }
+a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 150px;
+    border: solid 3px white;
+    margin: 10px;
+}
+.img-derecha{
+    max-width: 100%;
+    align-self: flex-end;
+    margin-left: 100px;
+}
+.img-izquierda{
+    max-width: 100%;
+    margin-right: 100px;
+}
+.contenido{
+    display: flex;
 }
