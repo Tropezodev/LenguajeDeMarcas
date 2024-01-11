@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<empresa>
+	<sucursales>
+		<sucursal nombre="Audiovisual">
+			<ubicacion>Murcia</ubicacion>
+			<departamentos>
+				<departamento nombre="Ventas">
+					<empleados>
+						<empleado nombre="Pepe">
+							<edad>21</edad>
+							<posicion>Jefe de equipo</posicion>
+							<roles>
+								<rol nombre="Senior">
+									<responsabilidad>Alta</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+								<rol nombre="Tester">
+									<responsabilidad>Media</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+							</roles>
+						</empleado>
+						<empleado nombre="Juan">
+							<edad>21</edad>
+							<posicion>Jefe de equipo</posicion>
+							<roles>
+								<rol nombre="Senior">
+									<responsabilidad>Alta</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+								<rol nombre="Tester">
+									<responsabilidad>Media</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+							</roles>
+						</empleado>
+					</empleados>
+				</departamento>
+			</departamentos>
+		</sucursal>
+		<sucursal nombre="Mecanizado">
+			<ubicacion>Murcia</ubicacion>
+			<departamentos>
+				<departamento nombre="Ventas">
+					<empleados>
+						<empleado nombre="Pepe">
+							<edad>21</edad>
+							<posicion>Jefe de equipo</posicion>
+							<roles>
+								<rol nombre="Senior">
+									<responsabilidad>Alta</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+								<rol nombre="Tester">
+									<responsabilidad>Media</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+							</roles>
+						</empleado>
+						<empleado nombre="Juan">
+							<edad>21</edad>
+							<posicion>Jefe de equipo</posicion>
+							<roles>
+								<rol nombre="Senior">
+									<responsabilidad>Alta</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+								<rol nombre="Tester">
+									<responsabilidad>Media</responsabilidad>
+									<proyectos>
+										<proyecto nombre="Proyecto1">
+											<fechaEntrega>
+												<anyo>2023</anyo>
+												<mes>12</mes>
+												<dia>11</dia>
+											</fechaEntrega>
+										</proyecto>
+										<proyecto nombre="Proyecto2">
+											<fechaEntrega>
+												<anyo>2025</anyo>
+												<mes>01</mes>
+												<dia>12</dia>
+											</fechaEntrega>
+										</proyecto>
+									</proyectos>
+								</rol>
+							</roles>
+						</empleado>
+					</empleados>
+				</departamento>
+			</departamentos>
+		</sucursal>
+	</sucursales>
+</empresa>

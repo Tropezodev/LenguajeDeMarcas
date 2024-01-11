@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feria xmlns:libro="localhost/ejemplo/libro.com" xmlns:autor="localhost/ejemplo/autor.com">
+	<libro:informacion id="1">
+		<nombre>El libro de la Selva</nombre>
+		<descripcion>Un libro muy salvaje</descripcion>
+	</libro:informacion>
+	<libro:informacion id="2">
+		<nombre>El libro de la Selva</nombre>
+		<descripcion>Un libro muy salvaje</descripcion>
+	</libro:informacion>
+	<libro:informacion id="3">
+		<nombre>El libro de la Selva</nombre>
+		<descripcion>Un libro muy salvaje</descripcion>
+	</libro:informacion>
+	<autor:informacion id="1">
+		<nombre>Ignatius Farray</nombre>
+		<descripcion>Escritor de Grito Sordo</descripcion>
+	</autor:informacion>
+	<autor:informacion id="2">
+		<nombre>Ignatius Farray</nombre>
+		<descripcion>Escritor de Grito Sordo</descripcion>
+	</autor:informacion>
+	<autor:informacion id="3">
+		<nombre>Ignatius Farray</nombre>
+		<descripcion>Escritor de Grito Sordo</descripcion>
+	</autor:informacion>
+</feria>
