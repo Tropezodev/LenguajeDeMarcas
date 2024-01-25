@@ -2,7 +2,7 @@ var caja_texto
 
 function inicializar(){
     caja_texto = document.getElementById('caja_texto')
-    document.getElementById('Boton').onclick = cambio_color
+    document.getElementById('Boton').addEventListener('click', cambio_color)
 }
 
 function cambio_color(){
