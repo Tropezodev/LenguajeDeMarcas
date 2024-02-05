@@ -14,7 +14,10 @@ function inicializar(){
     let elemento_creado = document.createElement('p')
     elemento_creado.textContent = 'Párrafo nuevo'
     elemento_creado.style.color = 'red'
+    
     padre.appendChild(elemento_creado)
+    //document.body.appendChild(elemento_creado)
+    //document.body.insertBefore(elemento_creado, parrafos[2])
 
     padre.removeChild(parrafos[1])
 }
