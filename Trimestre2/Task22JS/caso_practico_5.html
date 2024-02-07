@@ -10,7 +10,7 @@ function validarEntero(valor){
      valor = parseInt(valor)
       //se comprueba si es un valor numérico
       if (isNaN(valor)) {
-            //no es numero y se devuelve cadena vacia
+            //no es numero y se devuelve cadena vacia // isNaN=Booleano. Is Not a Number. Si no es un número devuelve True.
             return "";
       }else{
             //si es un número devuelve el valor
@@ -18,9 +18,10 @@ function validarEntero(valor){
 }
 function validaEnvia(){
     //valida nombre
+    //Para acceder al Formulario es con: document.(nombre_formulario).(nombre_parámetro).(nombre_atributo(value=para recuperar el valor)).(método)
     if (document.fvalida.nombre.value.length==0){
         alert("Debe escribir su nombre")
-        document.fvalida.nombre.focus()
+        document.fvalida.nombre.focus()//el .focus() es para establecer el foco en el input del parámetro
         return 0; }
     //valida edad que debe ser > 18
     edad = document.fvalida.edad.value
