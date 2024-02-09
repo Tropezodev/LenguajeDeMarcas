@@ -1,0 +1,14 @@
+<odoo>
+	<!--ADMINISTRADORES-->
+	<data>
+		<record id="pokemons_admins" model="res.groups">
+			<field name="name">Pokemons / Responsable</field>
+		</record>
+	</data>
+	<!--USERS-->
+	<data>
+		<record id="pokemons_users" model="res.groups">
+			<field name="name">Pokemons / Responsable</field>
+		</record>
+	</data>
+</odoo>
